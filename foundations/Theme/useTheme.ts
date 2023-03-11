@@ -12,6 +12,9 @@ export interface IMode {
   bg: string;
   primary: string;
   secondary: string;
+  light: string;
+  black: string;
+  white: string;
 }
 
 export default function useTheme(): IMode {
@@ -21,12 +24,18 @@ export default function useTheme(): IMode {
     bg: "#F5F5F5",
     primary: "#000000",
     secondary: "#565656",
+    light: "#F5F5F5",
+    black: "#000000",
+    white: "#FFFFFF",
   };
 
   const darkTheme = {
     bg: "#000000",
     primary: "#F5F5F5",
     secondary: "#565656",
+    light: "#F5F5F5",
+    black: "#000000",
+    white: "#FFFFFF",
   };
 
   if (theme === "dark") return darkTheme;
