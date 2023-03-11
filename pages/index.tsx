@@ -1,14 +1,16 @@
-import { ThemeContext } from "@/context/ThemeProvider";
+import ImageCard from "@/components/atoms/ImageCard/ImageCard";
+import DarkThemeSwitcher from "@/components/molecules/DarkThemeSwitcher/DarkThemeSwitcher";
+import ImagesContainer from "@/components/organisms/ImagesContainer/ImagesContainer";
+import Navbar from "@/components/organisms/Navbar/Navbar";
 import useTheme, { THEME } from "@/foundations/Theme/useTheme";
+import useImagesCardsData from "@/services/useImagesCardsData";
+
 import Head from "next/head";
-import { useContext } from "react";
 
 export default function Home() {
-  const { theme, setTheme } = useContext(ThemeContext);
-  function handleOnClickThemeButton() {
-    if (theme === THEME.LIGHT) setTheme(THEME.DARK);
-    if (theme === THEME.DARK) setTheme(THEME.LIGHT);
-  }
+  const theme = useTheme();
+
+  const imagesData = useImagesCardsData();
 
   return (
     <>
@@ -18,8 +20,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <button onClick={handleOnClickThemeButton}>Here</button>
+      <main
+        style={{
+          backgroundColor: theme.bg,
+          padding: "2em 5em 2em 5em",
+        }}>
+        <Navbar />
+
+        <ImagesContainer>
+          {imagesData.map((imageData) => (
+            <ImageCard key={imageData.id} imageData={imageData} />
+          ))}
+        </ImagesContainer>
       </main>
     </>
   );

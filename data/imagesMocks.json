@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "image": "images/tesla.png",
+    "name": "Tesla",
+    "category": "racing",
+    "text": "é uma empresa automotiva e de armazenamento de energia norte americana, que desenvolve, produz e vende automóveis elétricos de alto desempenho, componentes para motores e transmissões para veículos elétricos e produtos à base de baterias.[3][4][5] Foi fundada em 2003 pelos engenheiros Martin Eberhard e Marc Tarpenning em San Carlos, Califórnia. O seu nome é uma homenagem ao inventor e engenheiro eletricista Nikola Tesla."
+  },
+
+  {
+    "id": 2,
+    "image": "images/kawasaki-ninja.png",
+    "name": "Kawasaki Ninja",
+    "category": "racing",
+    "text": ""
+  },
+
+  {
+    "id": 3,
+    "image": "images/python.png",
+    "name": "Python",
+    "category": "programming",
+    "text": ""
+  },
+
+  {
+    "id": 4,
+    "image": "images/react-js.png",
+    "name": "React.js",
+    "category": "programming",
+    "text": ""
+  },
+
+  {
+    "id": 5,
+    "image": "images/playstation.png",
+    "name": "Playstation",
+    "category": "games",
+    "text": ""
+  },
+
+  {
+    "id": 6,
+    "image": "images/xbox.png",
+    "name": "XBox",
+    "category": "games",
+    "text": ""
+  },
+
+  {
+    "id": 7,
+    "image": "images/project-zomboid.png",
+    "name": "Project Zomboid",
+    "category": "programming",
+    "text": ""
+  },
+
+  {
+    "id": 8,
+    "image": "images/minecraft.png",
+    "name": "Minecraft",
+    "category": "games",
+    "text": ""
+  },
+
+  {
+    "id": 9,
+    "image": "images/pintura-representa-decepcao.png",
+    "name": "Pintura representa decepção",
+    "category": "painting",
+    "text": ""
+  },
+  {
+    "id": 10,
+    "image": "images/platao.png",
+    "name": "Platão",
+    "category": "science",
+    "text": ""
+  },
+
+  {
+    "id": 11,
+    "image": "images/pintura-representa-odio.png",
+    "name": "Pintura representa ódio",
+    "category": "painting",
+    "text": "O Anjo Caído - Alexandre Cabanel, nas tradições cristã, judaica e muçulmana, é um anjo exilado ou banido do céu em punição por desobediência ou rebelião contra Deus. O mais conhecido deles é Satanás, a única referência a anjos caídos na Bíblia é uma passagem do Livro de Isaías, 14:3-20, mas na verdade é uma passagem que descreve a queda de um rei da Babilônia. A noção de anjo caído é encontrada em outras religiões, como a tradição hindu, e forma um tema artístico popular."
+  },
+
+  {
+    "id": 12,
+    "image": "images/einstein.png",
+    "name": "Einstein",
+    "category": "science",
+    "text": ""
+  },
+
+  {
+    "id": 13,
+    "image": "images/louis-armstrong.png",
+    "name": "Louis Armstrong",
+    "category": "music",
+    "text": ""
+  },
+
+  {
+    "id": 14,
+    "image": "images/robert-johnson.png",
+    "name": "Robert Johnson",
+    "category": "music",
+    "text": ""
+  },
+
+  {
+    "id": 15,
+    "image": "images/tom-jobim.png",
+    "name": "Tom Jobim",
+    "category": "music",
+    "text": ""
+  },
+
+  {
+    "id": 16,
+    "image": "images/elis-regina.png",
+    "name": "Elis Regina",
+    "category": "music",
+    "text": ""
+  },
+  {
+    "id": 17,
+    "image": "images/johannes-vermeer.png",
+    "name": "Johaness Vermeer",
+    "category": "painting",
+    "text": ""
+  },
+
+  {
+    "id": 18,
+    "image": "images/leonardo-da-vinci.png",
+    "name": "Leonardo Da Vinci",
+    "category": "painting",
+    "text": ""
+  },
+  {
+    "id": 19,
+    "image": "images/tarsila-do-amaral.png",
+    "name": "Tarsila do Amaral",
+    "category": "painting",
+    "text": ""
+  },
+
+  {
+    "id": 20,
+    "image": "images/michelangelo.png",
+    "name": "Michelangelo",
+    "category": "painting",
+    "text": ""
+  }
+]
