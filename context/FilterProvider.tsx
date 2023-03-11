@@ -16,11 +16,11 @@ export enum CATEGORY {
   MUSIC = "music",
 }
 
-export type category = CATEGORY;
+export type categoryType = CATEGORY;
 
 interface IThemeContext {
   selectedFilter: CATEGORY | string;
-  setSelectedFilter: Dispatch<SetStateAction<CATEGORY | string>>;
+  setSelectedFilter: Dispatch<SetStateAction<categoryType | string>>;
 }
 
 const defaultFilterContextValue: IThemeContext = {
