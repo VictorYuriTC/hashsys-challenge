@@ -1,5 +1,6 @@
 import { ThemeContext } from "@/context/ThemeProvider";
-import useTheme, { THEME } from "@/foundations/Theme/useTheme";
+import useTheme from "@/foundations/Theme/useTheme";
+import { THEME } from "@/utils/constants";
 import { useContext } from "react";
 import Text from "./components/Text";
 

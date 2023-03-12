@@ -1,11 +1,9 @@
 import { IImageData } from "@/components/atoms/ImageCard/ImageCard";
-import {
-  CATEGORY,
-  categoryType,
-  FilterContext,
-} from "@/context/FilterProvider";
+import { FilterContext } from "@/context/FilterProvider";
+import { createPromiseMock } from "@/utils/funcs";
 import { useContext, useEffect, useState } from "react";
 import imagesMocks from "../data/imagesMocks.json";
+import IPromiseResponse from "@/state/interfaces/IPromiseResponse";
 
 function isValidCategory(cards: IImageData[], filter: string) {
   return filterDataByCardCategory(cards, filter).length > 0;
@@ -39,13 +37,7 @@ function filterData(cards: IImageData[], filter: string) {
   return cards;
 }
 
-interface IUseImagesCardsData {
-  data?: IImageData[];
-  isLoading?: boolean;
-  error?: Error;
-}
-
-export default function useImagesCardsData(): IUseImagesCardsData {
+export default function useImagesCardsData(): IPromiseResponse<IImageData[]> {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const { selectedFilter } = useContext(FilterContext);
@@ -54,11 +46,7 @@ export default function useImagesCardsData(): IUseImagesCardsData {
     async function fetchImagesCardsData() {
       setIsLoading(true);
 
-      const response = await new Promise((resolve, _reject) => {
-        setTimeout(() => {
-          resolve(imagesMocks);
-        }, Math.floor(Math.random() * (2500 - 250) + 250));
-      });
+      const response = await createPromiseMock(imagesMocks);
 
       const parsedResponse = JSON.parse(JSON.stringify(response));
 

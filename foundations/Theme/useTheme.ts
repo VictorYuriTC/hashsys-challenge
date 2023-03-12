@@ -1,10 +1,6 @@
 import { ThemeContext } from "@/context/ThemeProvider";
+import { THEME } from "@/utils/constants";
 import { useContext } from "react";
-
-export enum THEME {
-  LIGHT = "light",
-  DARK = "dark",
-}
 
 export type ThemeType = THEME.LIGHT | THEME.DARK;
 

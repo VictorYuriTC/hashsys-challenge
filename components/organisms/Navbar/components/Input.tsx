@@ -1,6 +1,6 @@
 import { FilterContext } from "@/context/FilterProvider";
 import useTheme from "@/foundations/Theme/useTheme";
-import { KeyboardEventHandler, useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 
 export default function Input() {
@@ -37,6 +37,7 @@ export default function Input() {
           border: "0px",
           backgroundColor: theme.secondary,
           paddingLeft: "1em",
+          width: "25em",
         }}
         placeholder="Pesquise aqui"
         type="text"

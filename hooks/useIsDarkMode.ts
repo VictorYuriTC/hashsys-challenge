@@ -1,5 +1,6 @@
 import { ThemeContext } from "@/context/ThemeProvider";
-import { THEME } from "@/foundations/Theme/useTheme";
+import { THEME } from "@/utils/constants";
+
 import { useContext } from "react";
 
 export default function useIsDarkMode() {
