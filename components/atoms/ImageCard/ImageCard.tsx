@@ -1,4 +1,3 @@
-import { formatStringToUrl } from "@/utils/stringFuncs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +15,7 @@ interface IProps {
 
 export default function ImageCard({ imageData }: IProps) {
   return (
-    <Link href={`/${formatStringToUrl(imageData.name)}`}>
+    <Link href={`/${imageData.id}`}>
       <Image
         src={`/${imageData.image}`}
         alt={`${imageData.name} image, included on ${imageData.category} category. Image nº ${imageData.id}`}

@@ -1,3 +1,4 @@
+import { CATEGORY } from "@/utils/constants";
 import {
   createContext,
   Dispatch,
@@ -5,16 +6,6 @@ import {
   SetStateAction,
   useState,
 } from "react";
-
-export enum CATEGORY {
-  ALL = "all",
-  RACING = "racing",
-  PROGRAMMING = "programming",
-  GAMES = "games",
-  PAINTING = "painting",
-  SCIENCE = "science",
-  MUSIC = "music",
-}
 
 export type categoryType = CATEGORY;
 

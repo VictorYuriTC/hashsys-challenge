@@ -1,3 +1,4 @@
+import { THEME } from "@/utils/constants";
 import {
   createContext,
   Dispatch,
@@ -6,7 +7,7 @@ import {
   useState,
 } from "react";
 
-import { THEME, ThemeType } from "../foundations/Theme/useTheme";
+import { ThemeType } from "../foundations/Theme/useTheme";
 
 interface IThemeContext {
   theme: ThemeType;
