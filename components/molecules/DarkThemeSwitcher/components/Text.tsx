@@ -1,6 +1,6 @@
 import { ThemeContext } from "@/context/ThemeProvider";
 import useTheme from "@/foundations/Theme/useTheme";
-import useIsDarkMode from "@/hooks/useIsDarkMode";
+import useIsDarkMode from "@/state/hooks/useIsDarkMode";
 import { ReactNode, useContext } from "react";
 
 interface IProps {

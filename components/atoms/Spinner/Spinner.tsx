@@ -1,5 +1,5 @@
 import useTheme from "@/foundations/Theme/useTheme";
-import useIsDarkMode from "@/hooks/useIsDarkMode";
+import useIsDarkMode from "@/state/hooks/useIsDarkMode";
 import styles from "./Spinner.module.css";
 
 export default function Spinner() {

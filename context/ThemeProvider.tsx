@@ -26,17 +26,13 @@ interface IThemeProvider {
 }
 
 export default function ThemeProvider({ children }: IThemeProvider) {
-  const [theme, setTheme] = useState(THEME.LIGHT);
+  const [theme, setTheme] = useState<ThemeType>(THEME.LIGHT);
   const contextValue = {
     theme,
     setTheme,
   };
   return (
-    <ThemeContext.Provider
-      value={{
-        theme,
-        setTheme,
-      }}>
+    <ThemeContext.Provider value={contextValue}>
       {children}
     </ThemeContext.Provider>
   );
