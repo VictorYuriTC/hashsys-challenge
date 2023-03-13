@@ -24,9 +24,7 @@ export default function KnowledgeCard() {
   const defaultSvgSize = useDefaultSvgSize();
 
   const previousCardId =
-    Number(imageCardId) === 1
-      ? Number(imagesCardsResponse.data?.length)
-      : Number(imageCardId) - 1;
+    Number(imageCardId) === 1 ? 20 : Number(imageCardId) - 1;
 
   const nextCardId = Number(imageCardId) === 20 ? 1 : Number(imageCardId) + 1;
 
