@@ -32,7 +32,7 @@ export default function Input() {
           height: "3em",
           borderRadius: "44px",
           border: "0px",
-          color: theme.primary,
+          color: theme.light,
           backgroundColor: theme.secondary,
           paddingLeft: "1em",
           width: "25em",
