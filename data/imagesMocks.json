@@ -12,7 +12,7 @@
     "image": "images/kawasaki-ninja.png",
     "name": "Kawasaki Ninja",
     "category": "racing",
-    "text": ""
+    "text": "Kawasaki Heavy Industries (em japonês: 川崎重工業株式会社; romaniz.: Kawasaki Jūkōgyō Kabushiki-gaisha) é uma companhia internacional japonesa que fabrica equipamentos de transporte. Ninja 250R é uma motocicleta esportiva. Possui sistema de suspensão traseira progressiva Uni-Trak.[9] Em 2012, a Kawasaki convocou os proprietários do modelo Ninja 250R anos 2009, 2010/2011 e 2012, para substituição do kit do sensor de queda. Segundo a Kawasaki, há uma deficiência no isolamento contra vibrações do sensor de queda do veículo, que é montado em um suporte e fixado no chassi da motocicleta. Isso pode fazer com que o pêndulo interno do sensor se desloque para cima, e, caso isso ocorra, a unidade de controle elétrica (ECU) pode interpretar que o veículo tombou, cortando o funcionamento do motor repentinamente.[10]."
   },
 
   {
@@ -20,7 +20,7 @@
     "image": "images/python.png",
     "name": "Python",
     "category": "programming",
-    "text": ""
+    "text": "Python é uma linguagem de programação de alto nível,[5] interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.[1] Atualmente, possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. O padrão na pratica é a implementação CPython. A linguagem foi projetada com a filosofia de enfatizar a importância do esforço do programador sobre o esforço computacional. Prioriza a legibilidade do código sobre a velocidade ou expressividade. Combina uma sintaxe concisa e clara com os recursos poderosos de sua biblioteca padrão e por módulos e frameworks desenvolvidos por terceiros."
   },
 
   {
@@ -28,7 +28,7 @@
     "image": "images/react-js.png",
     "name": "React.js",
     "category": "programming",
-    "text": ""
+    "text": "O React (também denominado React.js ou ReactJS) é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. Criado em 2011 pelo Facebook, com a criação de views declarativas e baseando-se em componentes, possuía o intuito de otimizar a atualização e a sincronização de atividades simultâneas no feed de notícias da rede social e melhorar a manutenção de código. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.[5] Em 2015, o Facebook anunciou o módulo React Native, que em conjunto com o React, possibilita o desenvolvimento de aplicativos para Android e iOS utilizando componentes de interface de usuário nativos de ambas plataformas, sem precisar recorrer ao HTML.[6] Na pesquisa de 2018 sobre hábitos de desenvolvedores do site Stack Overflow, o React foi a terceira biblioteca ou framework[7] mais citado pelos usuários e desenvolvedores profissionais, ficando atrás somente do Node.js e Angular, respectivamente.[8]"
   },
 
   {
@@ -36,7 +36,7 @@
     "image": "images/playstation.png",
     "name": "Playstation",
     "category": "games",
-    "text": ""
+    "text": "PlayStation (プレイステーション Pureisutēshon?, oficialmente abreviado PS) é uma série de consoles de videogame criada e desenvolvida pela Sony Computer Entertainment, abrangendo a quinta, sexta, sétima, oitava e nona gerações de videogames. A marca foi lançada pela primeira vez em 3 de dezembro de 1994 no Japão.[1]. Dispõe de um total de oito consolas — sendo duas delas portáteis e ainda uma versão \"Pro\" —, um centro de mídia, um serviço on-line, uma linha de controladores e um palmtop, bem como diversas revistas especializadas. Foi lançado em 3 de dezembro de 1994, no Japão, e em 29 de setembro de 1995, nos Estados Unidos. Desde o seu lançamento até 2006 (quando sua produção foi extinta), a PlayStation vendeu mais de 103 milhões de unidades. Inicialmente PlayStation seria um leitor de CD-ROM para o Super Nintendo Entertainment System, o SNES-CD, a ser produzido em conjunto com a Nintendo.[2]"
   },
 
   {
@@ -44,7 +44,7 @@
     "image": "images/xbox.png",
     "name": "XBox",
     "category": "games",
-    "text": ""
+    "text": "Xbox é uma marca de consoles de jogos eletrônicos criada pela Microsoft. O nome Xbox é incluído em uma série de consoles desenvolvidos pela Microsoft, desde a sexta geração até a nona geração de consoles, bem como o serviço on-line Xbox Live e Xbox Game Pass. A marca foi introduzida pela primeira vez em 15 de novembro de 2001, nos Estados Unidos, com o lançamento do console Xbox. O primeiro console da série, o Xbox, foi o primeiro console oferecido por uma empresa norte-americana após o Atari Jaguar em 1996. Ele chegou a mais de 24 milhões de unidades vendidas em 10 de maio de 2006.[1] Seu sucessor, o Xbox 360, foi lançado em 22 de novembro de 2005 e descontinuado em 20 de abril de 2016. O sucessor do Xbox 360, o Xbox One,[2] foi anunciado em 21 de maio de 2013 e lançado em 22 de novembro do mesmo ano.[3]"
   },
 
   {
@@ -52,7 +52,7 @@
     "image": "images/project-zomboid.png",
     "name": "Project Zomboid",
     "category": "games",
-    "text": ""
+    "text": "Project Zomboid é um jogo eletrônico de terror de sobrevivência isométrico de mundo aberto em desenvolvimento pela desenvolvedora independente britânica e canadense The Indie Stone. Se passa em um mundo pós-apocalíptico infestado de zumbis, onde o jogador é desafiado a sobreviver o máximo possível antes de morrer inevitavelmente. Foi um dos primeiros cinco jogos lançados na seção de financiamento alfa do portal de jogos Desura.[2] Em 2011, The Indie Stone sofreu um grande revés na comunidade de jogos indie após o roubo de dois laptops contendo o código do jogo. Desde então, o Projeto Zomboid apareceu no Steam Early Access e está em desenvolvimento até hoje. Project Zomboid é o primeiro jogo lançado comercialmente da The Indie Stone.[3] A versão estável mais recente é a Build 41, lançada em dezembro de 2021, que inclui revisões de animação e combate, novo áudio e música, adição da cidade de Louisville, KY e o multiplayer renovado da General Arcade.[4][5]"
   },
 
   {
@@ -60,7 +60,7 @@
     "image": "images/minecraft.png",
     "name": "Minecraft",
     "category": "games",
-    "text": ""
+    "text": "Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus \"Notch\" Persson e posteriormente desenvolvido e publicado pela Mojang Studios, cuja propriedade intelectual foi obtida pela Microsoft em 2014. Lançado inicialmente em maio de 2009 como um projeto em desenvolvimento, seu lançamento completo ocorreu em novembro de 2011 para Microsoft Windows, macOS e Linux, sendo posteriormente relançado para uma ampla variedade de plataformas. É o jogo eletrônico mais vendido de todos os tempos, vendendo mais de 238 milhões de cópias em todas as plataformas até abril de 2021, com mais de 140 milhões de jogadores ativos mensalmente."
   },
 
   {
@@ -68,14 +68,14 @@
     "image": "images/pintura-representa-decepcao.png",
     "name": "Pintura representa decepção",
     "category": "painting",
-    "text": ""
+    "text": "Sir John Everett Millais, 1º Baronete de Millais of Palace Gate and Saint Ouen, Jersey (Southampton, 8 de junho de 1829 — Londres, 13 de agosto de 1896) foi um pintor e ilustrador inglês e um dos fundadores da Irmandade Pré-Rafaelita.[1] Uma criança prodígio, aos 11 anos tornou-se o estudante mais jovem a ingressar na Academia Real Inglesa. A Irmandade Pré-Rafaelita foi fundada na casa de seus pais em Londres. Millais tornou-se já em sua época o expoente mais famoso dessa corrente, tendo seu quadro Cristo na casa de seus pais sido recebido de forma controversa devido ao realismo em que retratou Jesus e sua casa, comumente retratados na arte de forma mítica. Em fins da década de 1850 Millais começou a abandonar o estilo pré-rafaelita. Suas obras tardias ganharam grande sucesso, transformando Millais em um dos artistas mais bem-pagos em vida na época. Apesar disso, elas foram vistas pela maior parte dos críticos do século XX como erros. Essa perspectiva mudou nas últimas décadas, já que suas obras tardias passaram a ser vistas como elementos de uma mudança maior que estava ocorrendo no mundo da arte."
   },
   {
     "id": 10,
     "image": "images/platao.png",
     "name": "Platão",
     "category": "science",
-    "text": ""
+    "text": "Platão (em grego clássico: Πλάτων, transl Plátōn, \"amplo\",[1] Atenas,[nota 1] 428/427[nota 2] - Atenas, 348/347 a.C.) foi um filósofo e matemático do período clássico da Grécia Antiga, autor de diversos diálogos filosóficos e fundador da Academia em Atenas, a primeira instituição de educação superior do mundo ocidental. Ele é amplamente considerado a figura central na história do grego antigo e da filosofia ocidental, juntamente com seu mentor, Sócrates, e seu pupilo, Aristóteles.[11] Platão ajudou a construir os alicerces da filosofia natural, da ciência e da filosofia ocidental, e também tem sido frequentemente citado como um dos fundadores da religião ocidental, da ciência[12] e da espiritualidade.[13] O assim chamado neoplatonismo de filósofos como Plotino e Porfírio influenciou Santo Agostinho e, portanto, o cristianismo, bem como a filosofia árabe[14][15] e judaica.[16][17] Alfred North Whitehead observou certa vez: \"a caracterização geral mais segura da tradição filosófica europeia é de que ela consiste em uma série de notas de rodapé sobre Platão\".[18]"
   },
 
   {
@@ -91,7 +91,7 @@
     "image": "images/einstein.png",
     "name": "Einstein",
     "category": "science",
-    "text": ""
+    "text": "Albert Einstein (Ulm, 14 de março de 1879 - Princeton, 18 de abril de 1955) foi um físico teórico alemão que desenvolveu a teoria da relatividade geral, um dos pilares da física moderna ao lado da mecânica quântica. Embora mais conhecido por sua fórmula de equivalência massa-energia, E = mc² — que foi chamada de \"a equação mais famosa do mundo\" —, foi laureado com o Prêmio Nobel de Física de 1921 \"por suas contribuições à física teórica\" e, especialmente, por sua descoberta da lei do efeito fotoelétrico, que foi fundamental no estabelecimento da teoria quântica. Nascido em uma família de judeus alemães, mudou-se para a Suíça ainda jovem e iniciou seus estudos na Escola Politécnica de Zurique. Após dois anos procurando emprego, obteve um cargo no escritório de patentes suíço enquanto ingressava no curso de doutorado da Universidade de Zurique. Em 1905, publicou uma série de artigos acadêmicos revolucionários. Uma de suas obras era o desenvolvimento da teoria da relatividade especial. Percebeu, no entanto, que o princípio da relatividade também poderia ser estendido para campos gravitacionais, e com a sua posterior teoria da gravitação, de 1916, publicou um artigo sobre a teoria da relatividade geral. Enquanto acumulava cargos em universidades e instituições, continuou a lidar com problemas da mecânica estatística e teoria quântica, o que levou às suas explicações sobre a teoria das partículas e o movimento browniano."
   },
 
   {
@@ -99,7 +99,7 @@
     "image": "images/louis-armstrong.png",
     "name": "Louis Armstrong",
     "category": "music",
-    "text": ""
+    "text": "Louis Daniel Armstrong (Nova Orleans, 4 de agosto de 1901 — Queens, 6 de julho de 1971), apelidado \"Satchmo\", \"Satch\" e \"Pops\",[1] foi um músico e vocalista americano. Ele é considerado uma das figuras mais influentes e importantes do jazz, com uma longa carreira de cinco décadas, sendo notório por suas habilidades como trompetista, cornetista, saxofonista.[2]. Armstrong nasceu numa família muito pobre. Passou a sua juventude na pobreza num bairro de Nova Orleans, conhecido como \"as costas da cidade\". O seu pai, William Armstrong, abandonou a família quando Louis ainda era criança e casou-se com outra mulher. A sua mãe, Mary Albert Armstrong, deixou Louis com a sua tia, o seu tio e a sua avó. Aos cinco anos ele voltou a viver com a sua mãe e via o pai muito raramente. Ele esteve na Fisk School for Boys onde pela primeira vez entrou em contacto com a música. Levou algum dinheiro para casa como entrega-jornais e sapateiro ambulante. Contudo, isso não era suficiente para manter a sua mãe longe da prostituição. Passou a entrar sorrateiramente em bares de música perto de sua casa para ouvir e ver os cantores."
   },
 
   {
@@ -107,7 +107,7 @@
     "image": "images/robert-johnson.png",
     "name": "Robert Johnson",
     "category": "music",
-    "text": ""
+    "text": "Robert Leroy Johnson (Hazlehurst, Mississippi, 8 de maio de 1911 – Greenwood, Mississippi, 16 de agosto de 1938) foi um cantor, compositor e guitarrista norte-americano de blues. Johnson é um dos músicos mais influentes do Mississippi Delta Blues e é uma importante referência para a padronização do consagrado formato de doze compassos para o blues. Influenciou grandes artistas durante anos como Muddy Waters, que considerava Johnson \"o mais importante cantor de blues que já viveu\". Em 2011, foi eleito o 71º melhor guitarrista da história, em uma enquete de eleitores e colaboradores da revista norte-americana Rolling Stone.[1]. Johnson nasceu em Hazlehurst, Mississippi, mas sua data de nascimento oficialmente aceita, provavelmente está errada. Registros existentes (documentos escolares, certidões de casamento e certidão de óbito) sugerem diferentes datas, entre 1909 e 1912, embora nenhum contenha a data de 1911. Robert Johnson gravou apenas 29 músicas em um total de 40 faixas, em duas sessões de gravação em San Antonio, Texas, em Novembro de 1936 e em Dallas, Texas, em Junho de 1937. Treze músicas foram gravadas 2 vezes e suas músicas continuam sendo interpretadas e adaptadas por diversos artistas e bandas, como Led Zeppelin, Bob Dylan, Eric Clapton, The Rolling Stones, The Blues Brothers, Red Hot Chili Peppers e The White Stripes. Em abril de 2019 foi lançado o documentário ReMastered: Devil at the Crossroads[2] na Netflix."
   },
 
   {
@@ -115,7 +115,7 @@
     "image": "images/tom-jobim.png",
     "name": "Tom Jobim",
     "category": "music",
-    "text": ""
+    "text": "Antônio Carlos Brasileiro de Almeida Jobim[nota 1] (Rio de Janeiro, 25 de janeiro de 1927 — Nova Iorque, 8 de dezembro de 1994), mais conhecido pelo seu nome artístico, Tom Jobim, foi um compositor, maestro, pianista, cantor, arranjador e violonista brasileiro. É considerado o maior expoente de todos os tempos da música popular brasileira pela revista Rolling Stone[1] e um dos criadores do movimento da bossa nova, com sua música e melodia, ao lado da letra e poesia de Vinicius de Moraes e da voz e violão de João Gilberto.[2] Em levantamento de 2022, produzido pelo ECAD, Tom tem 8 das 15 músicas brasileiras mais regravadas da história, contando canções solo ou em parceria, sendo a mais regravada Garota de Ipanema, que fez em parceria com Vinicius de Moraes.[3] Filho do diplomata gaúcho Jorge de Oliveira Jobim e da dona de casa fluminense Nilza Brasileiro de Almeida, Antonio Carlos Brasileiro de Almeida Jobim nasceu na rua Conde de Bonfim, n.º 634, no bairro da Tijuca, no Rio de Janeiro (na época Distrito Federal). Mudou-se com a família no ano seguinte para Ipanema, onde foi criado. A ausência do pai durante a infância e adolescência lhe impôs um contido ressentimento, desenvolvendo no maestro uma profunda relação com a tristeza e o romantismo melódico, transferido peculiarmente para as construções harmônicas e melódicas. Aprendeu a tocar violão e piano em aulas, entre outros, com o professor alemão Hans-Joachim Koellreutter, introdutor da técnica dodecafônica no Brasil."
   },
 
   {
@@ -123,14 +123,15 @@
     "image": "images/elis-regina.png",
     "name": "Elis Regina",
     "category": "music",
-    "text": ""
+    "text": "Elis Regina Carvalho Costa (Porto Alegre, 17 de março de 1945 — São Paulo, 19 de janeiro de 1982) foi uma cantora brasileira. Conhecida pela competência vocal, musicalidade e presença de palco,[1][2][3][4][nota 1] foi aclamada tanto no Brasil quanto internacionalmente, e comparada a cantoras como Ella Fitzgerald, Sarah Vaughan e Billie Holiday.[6][7][8][9][5] Com os sucessos de Falso Brilhante (1975-1977) e Transversal do Tempo (1978), Elis Regina inovou os espetáculos musicais no país. Foi casada com Ronaldo Bôscoli, com quem teve João Marcello Bôscoli (1970); em 1973, casou-se com o pianista César Camargo Mariano,[10] com quem teve dois filhos: Pedro Camargo Mariano (1975) e Maria Rita Camargo Mariano (1977). Foi a primeira grande artista a surgir dos festivais de música na década de 1960 e descolava-se da estética da Bossa Nova pelo uso de sua extensão vocal e de sua dramaticidade. Inicialmente, seu estilo era influenciado pelos cantores do rádio, especialmente Ângela Maria.[11][12][13][14][15] Depois de quatro LP's gravados e sem grande sucesso — Viva a Brotolândia (1961), Poema de Amor (1962), Elis Regina (1963), O Bem do Amor (1963) — Elis foi a maior revelação do festival da TV Excelsior em 1965, quando cantou \"Arrastão\" de Vinícius de Moraes e Edu Lobo."
   },
+
   {
     "id": 17,
     "image": "images/johannes-vermeer.png",
     "name": "Johaness Vermeer",
     "category": "painting",
-    "text": ""
+    "text": "Johannes Vermeer (Delft, 31 de Outubro de 1632 - Delft, 15 de Dezembro de 1675) foi um pintor holandês, que também é conhecido como Vermeer de Delft ou Johannes van der Meer. Vermeer viveu toda a sua vida na sua terra natal, onde está sepultado na Igreja Velha (Oude Kerk) de Delft. É o pintor holandês mais famoso e importante do século XVII (um período que é conhecido por Idade de Ouro Holandesa, devido às espantosas conquistas culturais e artísticas do país nessa época). Os seus quadros são admirados pelas suas cores transparentes, composições inteligentes e brilhante com o uso da luz. Pouco se sabe da sua vida. Era filho de Reynier Jansz e Dingenum Baltens. Casou-se em 1653 com Catharina Bolenes e teve 15 filhos, dos quais morreram 4 em tenra idade. No mesmo ano juntou-se à guilda de pintores de Saint Lucas (São Lucas). Mais tarde, em 1662 e 1669, foi escolhido para presidir a guilda. Sabe-se que vivia com magros rendimentos como comerciante de arte, e não pela venda dos seus quadros. Por vezes até foi obrigado a pagar com quadros dívidas contraídas nas lojas de comida locais. Morreu muito pobre em 1675. A sua viúva teve de vender todos os quadros que ainda estavam na sua posse ao conselho municipal em troca de uma pequena pensão (uma fonte diz que foi só um quadro: a última obra de Vermeer, intitulada Clio). Depois da sua morte, Vermeer foi esquecido."
   },
 
   {
@@ -138,14 +139,15 @@
     "image": "images/leonardo-da-vinci.png",
     "name": "Leonardo Da Vinci",
     "category": "painting",
-    "text": ""
+    "text": "Leonardo di Ser Piero da Vinci (Loudspeaker.svg? pron.), ou simplesmente Leonardo da Vinci (Anchiano, 15 de abril de 1452[2] — Amboise, 2 de maio de 1519), foi um polímata nascido na atual Itália,[2][nb 1] uma das figuras mais importantes do Alto Renascimento,[2] que se destacou como cientista, matemático, engenheiro, inventor, anatomista, pintor, escultor, arquiteto, botânico, poeta e músico.[3][4][5] É ainda conhecido como o percursor da aviação e da balística.[3] Leonardo frequentemente foi descrito como o arquétipo do homem do Renascimento, alguém cuja curiosidade insaciável era igualada apenas pela sua capacidade de invenção.[6] É considerado um dos maiores pintores de todos os tempos e como possivelmente a pessoa dotada de talentos mais diversos a ter vivido.[7] Segundo a historiadora de arte Helen Gardner, a profundidade e o alcance de seus interesses não tiveram precedentes e \"sua mente e personalidade parecem sobre-humanos para nós, e o homem em si [nos parece] misterioso e distante\".[6]"
   },
+
   {
     "id": 19,
     "image": "images/tarsila-do-amaral.png",
     "name": "Tarsila do Amaral",
     "category": "painting",
-    "text": ""
+    "text": "Tarsila de Aguiar do Amaral (Capivari, 1 de setembro de 1886[1][2][3][4][5] — São Paulo, 17 de janeiro de 1973) foi uma pintora, desenhista, escultora, ilustradora, cronista e tradutora brasileira. Ela é considerada uma das principais artistas modernistas latino-americanas, além de ser considerada a pintora que melhor alcançou as aspirações brasileiras de expressão nacionalista nesse estilo artístico.[6] Como integrante do Grupo dos Cinco, Tarsila também é considerada uma grande influência no movimento da arte moderna no Brasil, ao lado de Anita Malfatti, Menotti Del Picchia, Mário de Andrade e Oswald de Andrade. Ela foi fundamental na formação do movimento estético, Antropofagia (1928-1929); na verdade, foi Tarsila quem com seu célebre quadro, Abaporu, inspirou o famoso Manifesto Antropófago de Oswald de Andrade.[7]"
   },
 
   {
@@ -153,6 +155,6 @@
     "image": "images/michelangelo.png",
     "name": "Michelangelo",
     "category": "painting",
-    "text": ""
+    "text": "Michelangelo di Lodovico Buonarroti Simoni (Caprese, 6 de março de 1475 — Roma, 18 de fevereiro de 1564), mais conhecido simplesmente como Michelangelo ou Miguel Ângelo,[1] foi um pintor, escultor, poeta, anatomista e arquiteto italiano, considerado um dos maiores criadores da história da arte do ocidente. Ele desenvolveu o seu trabalho artístico por mais de setenta anos entre Florença e Roma, onde viveram seus grandes mecenas, a família Medici de Florença, e vários papas romanos. Iniciou-se como aprendiz dos irmãos Davide e Domenico Ghirlandaio em Florença. Tendo o seu talento logo reconhecido, tornou-se um protegido dos Medici, para quem realizou várias obras. Depois fixou-se em Roma, onde deixou a maior parte de suas obras mais representativas. Sua carreira se desenvolveu na transição do Renascimento para o maneirismo, e seu estilo sintetizou influências da arte da Antiguidade clássica, do primeiro Renascimento, dos ideais do humanismo e do neoplatonismo, centrado na representação da figura humana e em especial no nu masculino, que retratou com enorme pujança."
   }
 ]

@@ -1,6 +1,7 @@
+import { FilterContext } from "@/context/FilterProvider";
 import useTheme from "@/foundations/Theme/useTheme";
 import Link from "next/link";
-import { CSSProperties, ReactNode } from "react";
+import { CSSProperties, ReactNode, useContext, useEffect } from "react";
 
 interface IMainLinkProps {
   href: string;
@@ -10,6 +11,7 @@ interface IMainLinkProps {
 
 export default function MainLink({ href, children, style }: IMainLinkProps) {
   const theme = useTheme();
+
   return (
     <Link
       href={href}

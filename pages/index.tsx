@@ -2,22 +2,41 @@ import ImageCard from "@/components/atoms/ImageCard/ImageCard";
 import Spinner from "@/components/atoms/Spinner/Spinner";
 import ImagesContainer from "@/components/organisms/ImagesContainer/ImagesContainer";
 import Navbar from "@/components/organisms/Navbar/Navbar";
+import useMedia, { MEDIA } from "@/foundations/Medias/useMedia";
 import useTheme from "@/foundations/Theme/useTheme";
-import useImagesCardsData from "@/services/useImagesCardsData";
+import useFilteredImagesCardsData from "@/services/useFilteredImagesCardsData/useFilteredImagesCardsData";
 
 import Head from "next/head";
 
 export default function Home() {
   const theme = useTheme();
+  const filteredCardsResponse = useFilteredImagesCardsData();
+  const media = useMedia();
 
-  const imagesCardsResponse = useImagesCardsData();
+  function getMainStyle() {
+    if (media === MEDIA.LARGE) {
+      return {
+        padding: "2em 5em 2em 5em",
+      };
+    }
 
-  if (imagesCardsResponse.isLoading)
+    if (media === MEDIA.MEDIUM) {
+      return {
+        padding: "2em 3em 2em 3em",
+      };
+    }
+
+    return {
+      padding: "2em",
+    };
+  }
+
+  if (filteredCardsResponse.isLoading)
     return (
       <div
         style={{
           backgroundColor: theme.bg,
-          height: "100dvh",
+          minHeight: "100dvh",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -40,15 +59,15 @@ export default function Home() {
 
       <main
         style={{
-          padding: "2em 5em 2em 5em",
-          height: "100dvh",
+          minHeight: "100dvh",
           display: "flex",
           flexDirection: "column",
           backgroundColor: theme.bg,
+          ...getMainStyle(),
         }}>
         <ImagesContainer>
-          {!imagesCardsResponse.isLoading &&
-            imagesCardsResponse.data?.map((imageData) => (
+          {!filteredCardsResponse.isLoading &&
+            filteredCardsResponse.data?.map((imageData) => (
               <ImageCard key={imageData.id} imageData={imageData} />
             ))}
         </ImagesContainer>

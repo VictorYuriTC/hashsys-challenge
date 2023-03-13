@@ -1,0 +1,9 @@
+.input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.input:focus {
+  outline-style: solid;
+  outline-color: transparent;
+}

@@ -1,10 +1,14 @@
 import { ThemeContext } from "@/context/ThemeProvider";
 import useTheme from "@/foundations/Theme/useTheme";
 import { THEME } from "@/utils/constants";
-import { useContext } from "react";
+import { CSSProperties, useContext } from "react";
 import Text from "./components/Text";
 
-export default function DarkThemeSwitcher() {
+interface IDarkThemeSwitcher {
+  style?: CSSProperties;
+}
+
+export default function DarkThemeSwitcher({ style }: IDarkThemeSwitcher) {
   const themeContext = useContext(ThemeContext);
   const theme = useTheme();
 
@@ -27,12 +31,15 @@ export default function DarkThemeSwitcher() {
     <span
       style={{
         cursor: "pointer",
-        display: "inline-block",
+        display: "flex",
+        flexDirection: "column",
+        gap: "4px",
         textAlign: "center",
         backgroundColor:
           themeContext.theme === THEME.DARK ? theme.primary : theme.black,
         padding: "4px 1em",
         borderRadius: "6px",
+        ...style,
       }}
       onClick={handleOnClickThemeButton}>
       <Text>Modo Dark</Text>

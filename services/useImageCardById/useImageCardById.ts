@@ -4,7 +4,7 @@ import { ROUTES } from "@/utils/constants";
 import { createPromiseMock } from "@/utils/funcs";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import imagesMock from "../data/imagesMocks.json";
+import imagesMock from "../../data/imagesMocks.json";
 
 export default function useImageCardById(
   id: string

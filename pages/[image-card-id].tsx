@@ -4,8 +4,9 @@ import Title from "@/components/atoms/Title/Title";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 import useMedia, { MEDIA } from "@/foundations/Medias/useMedia";
 import useTheme from "@/foundations/Theme/useTheme";
-import useImageCardById from "@/services/useImageCardById";
-import useImagesCardsData from "@/services/useImagesCardsData";
+import useImageCardById from "@/services/useImageCardById/useImageCardById";
+import useImagesCardsData from "@/services/useImagesCardsData/useImagesCardsData";
+
 import useDefaultSvgSize from "@/state/hooks/useDefaultSvgSize";
 import ISize from "@/state/interfaces/ISize";
 import { ROUTES } from "@/utils/constants";
@@ -24,7 +25,7 @@ export default function KnowledgeCard() {
 
   const previousCardId =
     Number(imageCardId) === 1
-      ? Number(imagesCardsResponse.data?.length) - 1
+      ? Number(imagesCardsResponse.data?.length)
       : Number(imageCardId) - 1;
 
   const nextCardId = Number(imageCardId) === 20 ? 1 : Number(imageCardId) + 1;
@@ -71,7 +72,7 @@ export default function KnowledgeCard() {
       <div
         style={{
           backgroundColor: theme.bg,
-          height: "100dvh",
+          minHeight: "100dvh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -84,7 +85,7 @@ export default function KnowledgeCard() {
     <div
       style={{
         backgroundColor: theme.bg,
-        height: "100dvh",
+        minHeight: "100dvh",
       }}>
       <Navbar />
 
